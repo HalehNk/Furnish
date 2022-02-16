@@ -68,7 +68,7 @@ h1 span {
 }
 
 #h2-sec4 {
-  padding-bottom: 9.5rem;
+  padding-bottom: 6rem;
 }
 
 .heading-tertiary {
@@ -98,6 +98,11 @@ h1 span {
 }
 
 /******************* paragraph ******************/
+.textbox-center {
+  text-align: center;
+  position: relative;
+}
+
 .paragraph {
   font-size: 1.6rem;
   color: var(--color-body);
@@ -121,7 +126,7 @@ h1 span {
 }
 
 .slider__items .paragraph {
-  padding: 35px 28px 25px 25px;
+  padding: 30px 28px 25px 25px;
   line-height: 1.8;
 }
 
@@ -131,8 +136,9 @@ h1 span {
 
 .paragraph-carier {
   position: relative;
-  bottom: 84px;
+  bottom: 77px;
   left: 100px;
+  color: #555;
 }
 
 .sec5-textboxes {
@@ -273,18 +279,20 @@ h1 span {
 .icon-container-md2 {
   width: 44px;
   height: 44px;
-  /* FIX */
-  /* WHY tf half of icon container disapears? */
-  /* TODO try again with before/after */
   position: relative;
-  bottom: 20px;
-  left: 0;
-  z-index: 88;
+  bottom: 140px;
+  left: 95px;
+  z-index: 2;
 }
 
-.slider__item-1 .icon-container-md2 {
+.icon-container-md2 {
   background-color: var(--darker-orange);
   color: #fff;
+}
+
+.md2-white {
+  background-color: #fff;
+  color: var(--darker-orange);
 }
 
 .icon-container-big {
@@ -302,12 +310,20 @@ h1 span {
   /* background-color: var(--light-orange); */
   content: "";
   animation: beat 1.5s ease-out infinite;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 100%;
   position: absolute;
   z-index: 0;
-  left: 0;
+  left: 4px;
+  bottom: 5px;
+}
+
+.quotation-icon {
+  display: inline-block;
+  font-size: 7rem;
+  position: relative;
+  top: 2.5rem;
 }
 
 @keyframes beat {
@@ -742,11 +758,6 @@ a {
 }
 
 /******************* section 3 ******************/
-.textbox-center {
-  text-align: center;
-  position: relative;
-}
-
 .small-p_txtbox {
   padding-top: 12.5rem;
 }
@@ -934,6 +945,7 @@ a {
   gap: 2rem;
   overflow: hidden;
   padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .slider__items img {
@@ -980,7 +992,7 @@ a {
 }
 
 /* TODO uncomment later */
-@keyframes slider {
+/* @keyframes slider {
   0% {
     left: 0;
     right: 0px;
@@ -1021,7 +1033,7 @@ a {
     left: 397px;
     right: 0px;
   }
-}
+} */
 
 @media screen and (min-width: 1540px) {
   .container {

@@ -76,7 +76,6 @@ h1 span {
   font-weight: 500;
 }
 
-/* FIX */
 .slider__items h3 {
   display: inline-block;
   position: relative;
@@ -126,7 +125,9 @@ h1 span {
 }
 
 .slider__items .paragraph {
-  padding: 30px 28px 25px 25px;
+  position: relative;
+  top: -15px;
+  padding: 0 28px 10px 25px;
   line-height: 1.8;
 }
 
@@ -134,9 +135,10 @@ h1 span {
   color: #fff;
 }
 
+/* FIX FIX FIX */
 .paragraph-carier {
-  position: relative;
-  bottom: 77px;
+  /* position: relative; */
+  top: 60px;
   left: 100px;
   color: #555;
 }
@@ -163,7 +165,7 @@ h1 span {
   display: inline-block;
 }
 
-/* ADD FIX */
+/* ADD */
 .tiny-p {
   font-size: 1.25rem;
   padding-right: 10px;
@@ -277,11 +279,11 @@ h1 span {
 }
 
 .icon-container-md2 {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   position: relative;
-  bottom: 140px;
-  left: 95px;
+  bottom: 22px;
+  left: 30px;
   z-index: 2;
 }
 
@@ -290,6 +292,7 @@ h1 span {
   color: #fff;
 }
 
+/* WHY doesnt it work?? the quotation color doesnt work */
 .md2-white {
   background-color: #fff;
   color: var(--darker-orange);
@@ -310,13 +313,13 @@ h1 span {
   /* background-color: var(--light-orange); */
   content: "";
   animation: beat 1.5s ease-out infinite;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 100%;
   position: absolute;
   z-index: 0;
-  left: 4px;
-  bottom: 5px;
+  left: 0;
+  bottom: 0;
 }
 
 .quotation-icon {
@@ -325,6 +328,10 @@ h1 span {
   position: relative;
   top: 2.5rem;
 }
+
+/* .slider__item-2 .question-icon {
+  color: var(--darker-orange);
+} */
 
 @keyframes beat {
   0% {
@@ -362,8 +369,6 @@ h1 span {
 .search-icon {
   font-size: 2rem;
 }
-
-/* FIX */
 
 .flex--icon-huge {
   align-items: center;
@@ -445,7 +450,6 @@ h1 span {
 
 .icon-calender {
   padding-left: 2rem;
-  /* FIX FIX FIX */
 }
 
 .question-icon {
@@ -501,7 +505,6 @@ a {
 .blue-link {
   display: block;
   font-size: 1.7rem;
-  /* FIX FIX FIX */
   padding-left: 76px;
   position: relative;
   bottom: 36px;
@@ -1050,8 +1053,6 @@ a {
 }
 
 /******************* section 5 ******************/
-/* TODO make margin-top(padding?) of small-p smaller */
-
 .section-05 {
   background-color: var(--color-gray-bck);
   padding-bottom: 10rem;
@@ -1179,8 +1180,6 @@ a {
   padding-bottom: 7rem;
   background-color: var(--background-light-blue-01);
 }
-
-/* FIX */
 
 .relative {
   position: relative;

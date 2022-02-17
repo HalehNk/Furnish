@@ -125,10 +125,21 @@ h1 span {
 }
 
 .slider__items .paragraph {
-  position: relative;
+  
+  /* Ali change */
+  /* position: relative; */
+
   top: -15px;
-  padding: 0 28px 10px 25px;
+
+  /* Ali change */
+  padding: 25px 28px 10px 25px;
   line-height: 1.8;
+}
+
+/* Ali change */
+.slider__items .paragraph.paragraph-carier{
+  padding-top: 5px;
+  /* you can add other changes for Marketing Manager in this section */
 }
 
 .slider__item-2 p {
@@ -281,8 +292,11 @@ h1 span {
 .icon-container-md2 {
   width: 40px;
   height: 40px;
-  position: relative;
-  bottom: 22px;
+  /* Ali changes */
+  position: absolute;
+  top: -20px;
+  /* position: relative; */
+  /* bottom: 22px; */
   left: 30px;
   z-index: 2;
 }

@@ -945,10 +945,13 @@ a {
   background-color: var(--color-gray-bck);
   align-items: center;
   justify-content: center;
-  gap: 2rem;
   overflow: hidden;
   padding-bottom: 5rem;
   padding-top: 5rem;
+}
+
+.slider-gap {
+  gap: 2rem;
 }
 
 .slider__items img {

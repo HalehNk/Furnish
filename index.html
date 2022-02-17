@@ -10,8 +10,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;300;400;500;600;800&family=Rubik:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
-
   <link rel="stylesheet" href="style.css" />
+  <!--CMT aos js library for animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>First Page</title>
 </head>
 
@@ -99,7 +100,7 @@
     <!-- CMT the girl background section -->
     <section class="section-02 container">
       <img class="img-section-2" src="img/img-02.png" alt="a girl smiling" />
-      <div class="sec-2-textbox position">
+      <div class="sec-2-textbox position" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
         <p class="small-p">ABOUT FURNISH</p>
         <h2 class="h2--big">
           Quality Makes the Belief for <span class="br">Customers</span>
@@ -123,8 +124,8 @@
     </section>
 
     <!-- CMT 6 images grid section -->
-    <section class="section-03 container">
-      <div class="textbox-center">
+    <section class="section-03 container" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+      <div class="textbox-center" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
         <p class="small-p small-p_txtbox">OUR FINISH PROJECTS</p>
         <h2 class="h2--big h2--big_txtbox">Furniture Collection</h2>
       </div>
@@ -214,7 +215,7 @@
         </div>
       </div>
       <div class="reviews">
-        <div class="textbox-center">
+        <div class="textbox-center" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
           <p class="small-p">GREAT REVIEWS FOR OUR SERVICES</p>
           <h2 class="h2--big">Technical Statistics</h2>
           <div class="number flex">
@@ -234,47 +235,50 @@
 
       <!-- CMT testimonials section AKA slider -->
       <section class="section-04 container">
-        <div class="textbox-center">
+
+        <div class="textbox-center" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
           <p class="small-p small-p_txtbox">TESTIMONIAL</p>
           <h2 id="h2-sec4" class="h2--big h2--big_txtbox">Happy Customers</h2>
         </div>
         <div class="slider flex">
-          <div class="slider__items slider__item-1">
-            <div class="icon-container icon-container-md2">
-              <p class="quotation-icon">"</p>
+          <div class="slider-gap flex" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            <div class="slider__items slider__item-1">
+              <div class="icon-container icon-container-md2">
+                <p class="quotation-icon">"</p>
+              </div>
+              <p class="paragraph">Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia,
+                there live the blind texts.</p>
+              <img src="costumers/costumer-1.jpg" alt="">
+              <h3 class="heading-tertiary">Roger Scott</h3>
+              <p class="paragraph paragraph-carier">Marketing Manager</p>
             </div>
-            <p class="paragraph">Far far away, behind the word mountains, far from the countries Vokalia and
-              Consonantia,
-              there live the blind texts.</p>
-            <img src="costumers/costumer-1.jpg" alt="">
-            <h3 class="heading-tertiary">Roger Scott</h3>
-            <p class="paragraph paragraph-carier">Marketing Manager</p>
-          </div>
-          <div class="slider__items slider__item-2">
-            <div class="icon-container icon-container-md2 md2-white">
-              <p class="quotation-icon">"</p>
+            <div class="slider__items slider__item-2">
+              <div class="icon-container icon-container-md2 md2-white">
+                <p class="quotation-icon">"</p>
+              </div>
+              <p class="paragraph">Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia,
+                there live the blind texts.</p>
+              <img src="costumers/costumer-1.jpg" alt="">
+              <h3 class="heading-tertiary">Roger Scott</h3>
+              <p class="paragraph paragraph-carier">Marketing Manager</p>
             </div>
-            <p class="paragraph">Far far away, behind the word mountains, far from the countries Vokalia and
-              Consonantia,
-              there live the blind texts.</p>
-            <img src="costumers/costumer-1.jpg" alt="">
-            <h3 class="heading-tertiary">Roger Scott</h3>
-            <p class="paragraph paragraph-carier">Marketing Manager</p>
-          </div>
-          <div class="slider__items slider__item-3">
-            <div class="icon-container icon-container-md2">
-              <p class="quotation-icon">"</p>
+            <div class="slider__items slider__item-3">
+              <div class="icon-container icon-container-md2">
+                <p class="quotation-icon">"</p>
+              </div>
+              <p class="paragraph">Far far away, behind the word mountains, far from the countries Vokalia and
+                Consonantia,
+                there live the blind texts.</p>
+              <img src="costumers/costumer-1.jpg" alt="">
+              <h3 class="heading-tertiary">Roger Scott</h3>
+              <p class="paragraph paragraph-carier">Marketing Manager</p>
             </div>
-            <p class="paragraph">Far far away, behind the word mountains, far from the countries Vokalia and
-              Consonantia,
-              there live the blind texts.</p>
-            <img src="costumers/costumer-1.jpg" alt="">
-            <h3 class="heading-tertiary">Roger Scott</h3>
-            <p class="paragraph paragraph-carier">Marketing Manager</p>
           </div>
-          <!-- <div class="slider__items slider__item-4"></div>
-        <div class="slider__items slider__item-5"></div> -->
+
         </div>
+
         <!-- <div>
           <p class="border">_</p>
           <p class="border">_</p>
@@ -283,12 +287,12 @@
 
       <!-- CMT how it works section -->
       <section class="section-05 container">
-        <div class="textbox-center">
+        <div class="textbox-center" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
           <p class="small-p small-p_txtbox">PRODUCTION FLOWS</p>
           <h2 class="h2--big h2--big_txtbox">How it Works</h2>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
           <!-- CMT little numbers in circles -->
           <span class="icon-container small-number-container1">
             <span>01</span>
@@ -333,7 +337,7 @@
             </div>
           </div>
           <!-- CMT btn -->
-          <div class="sec5-btn">
+          <div class="sec5-btn" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
             <a href="" class="button-orange">learn more</a>
             <a href="" class="button-blue">get a request</a>
           </div>
@@ -342,11 +346,11 @@
 
       <!-- CMT recent from blog center -->
       <section class="section-06 container">
-        <div class="textbox-center">
+        <div class="textbox-center" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
           <p class="small-p small-p_txtbox">OUR BLOG</p>
           <h2 class="h2--big h2--big_txtbox">Recent From Blog</h2>
         </div>
-        <div class="grid grid--2x2">
+        <div class="grid grid--2x2" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
           <div class="blog-items">
             <img class="blog-img" src="img/img-sec6/img-1.png" alt="part of a living room">
             <div class="sec6-textbox sec6-textbox-1">
@@ -534,6 +538,13 @@
   <!-- ion icon -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- js AOS codes -->
+  <!-- <script src="js/main.js"></script> -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

@@ -665,7 +665,8 @@ a {
 
 @media screen and (min-width: 1540px) {
   .container {
-    width: 1495px;
+    /* FIX the original width was 1495px */
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
   }
@@ -683,7 +684,9 @@ a {
 
 /******************* section 1 ******************/
 .section-01 {
-  width: 149.5rem;
+  /* FIX original width was 149.5rem */
+  /* width: 90vw; */
+  width: 98.8vw;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 0.8rem;
@@ -724,18 +727,21 @@ a {
 
 @media screen and (min-width: 1540px) {
   .container {
-    width: 1495px;
+    /* FIX original width was 1495px */
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
   }
 
   .grid--1x4 {
-    width: 1495px;
+    width: 90vw;
   }
 }
 
 /******************* section 2 ******************/
 .section-02 {
+  /* ADD 
+  width: 90vw; */
   position: relative;
 }
 
@@ -745,7 +751,7 @@ a {
 
 .img-section-2 {
   width: 100%;
-  height: 650px;
+  height: 65rem;
 }
 
 .position {
@@ -759,13 +765,21 @@ a {
 
 @media screen and (min-width: 1540px) {
   .container {
-    width: 1495px;
+    /* FIX original width was 1495px */
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
   }
 }
 
 /******************* section 3 ******************/
+.section-03 {
+  /* ADD */
+  width: 98vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .small-p_txtbox {
   padding-top: 12.5rem;
 }
@@ -878,11 +892,16 @@ a {
   background-position: center center;
 }
 
+/* --------------------- REVIEWS --------------------- */
+
 .reviews {
+  /* width: 100vw; */
   margin-top: 0;
   background-color: var(--background-light-blue-01);
   height: 370px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reviews .small-p {
@@ -893,15 +912,19 @@ a {
   margin-bottom: 4.5rem;
 }
 
+.reviews-num {
+}
+
+.reviews-num span {
+  display: inline-block;
+  position: relative;
+}
+
 .number {
-  width: 120rem;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 120rem; */
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: 5px;
-  justify-content: center;
-  justify-content: space-around;
 }
 
 .number-text {
@@ -910,26 +933,44 @@ a {
   color: #999;
 }
 
-.number-text .position {
-  top: 267px;
+.position {
+  top: 3rem;
+}
+
+.num-1 {
+  left: -1rem;
+}
+
+.num-2 {
+  left: 3.5rem;
+}
+
+.num-3 {
+  left: 3.5rem;
+}
+
+.num-4 {
+  left: 10rem;
 }
 
 .num-txt-1 {
-  left: 205px;
+  left: -11.5rem;
 }
 .num-txt-2 {
-  left: 518px;
+  left: -12rem;
 }
 .num-txt-3 {
-  left: 861px;
+  left: -11rem;
 }
 .num-txt-4 {
-  left: 1186px;
+  left: 2.5rem;
 }
 
 @media screen and (min-width: 1540px) {
   .container {
     /* width: 1495px; */
+    /* ADD */
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1048,7 +1089,8 @@ a {
 
 @media screen and (min-width: 1540px) {
   .container {
-    width: 1495px;
+    /* FIX original width was 1495px */
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1086,7 +1128,15 @@ a {
 
 @media screen and (min-width: 1540px) {
   .container {
-    width: 1495px;
+    /* FIX original width was 1495px */
+    /* ADD */
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .sec__5 {
+    width: 1490px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1143,7 +1193,8 @@ a {
 
 @media screen and (min-width: 1540px) {
   .container {
-    width: 1495px;
+    /* FIX original width was 1495px */
+    width: 90vw;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1243,8 +1294,9 @@ a {
 }
 
 @media screen and (min-width: 1540px) {
-  .container {
-    width: 1495px;
+  .container-f {
+    /* FIX original width was 1495px */
+    width: 100vw;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1257,6 +1309,11 @@ a {
   .square-icon {
     padding-bottom: 85px;
   }
+  .f-1 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /******************* footer 2 ******************/
@@ -1268,8 +1325,9 @@ a {
 }
 
 @media screen and (min-width: 1540px) {
-  .container {
-    width: 1495px;
+  .container-f {
+    /* FIX original width was 1495px */
+    width: 100vw;
     margin-right: auto;
     margin-left: auto;
   }
